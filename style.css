@@ -720,3 +720,124 @@ form textarea{
         opacity: 1;
     }
 }
+
+
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 10px 20px;
+      align-items: starts;
+
+    }
+  
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px;
+    
+    } 
+   
+    .navbar a {
+      margin: 5px 0px;
+    }
+  
+    .home {
+      padding: 20px;
+      margin-top: 40px;
+      background: linear-gradient(90deg, #000000, #737373) ;
+    }
+  
+    .home-content h1 {
+      font-size: 28px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about-img{
+        display: flex;
+        justify-content: start;
+       
+    }
+    .about-img img{
+        width: 300px;
+        
+        flex: 1 1 40%;
+        margin-left: 20px;
+    }
+    
+    .about-text{
+        flex: 1 1 60%;
+        margin-left: 20px;
+        
+
+    }
+    .about-text h2 {
+      font-size: 28px;
+    }
+
+    .container1{
+        margin-top: 100px;
+        margin-left: 0px;
+
+    }
+    .heading1{
+        margin-bottom: 10px;
+    }
+
+    #skills1{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .portfolio-content{
+        display: grid;
+        grid-template-columns: 400px;
+        gap: 20px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+  
+    .project .main-text{
+        margin-top: 0px;
+    }
+    
+    .main-text h2{
+        font-size: 40px;
+
+    }
+    .contact {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contact h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+  
+    .contact-text {
+      margin-right: 0;
+    
+    }
+  
+    .contact-form {
+      margin-top: 20px;
+    }
+  
+    .project .row {
+      flex-direction: column;
+    }
+  
+    .project .row img {
+      max-width: 100%;
+    }
+  }
+  
