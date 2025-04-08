@@ -304,16 +304,16 @@ section{
     content: "85%";
 }
 .progress-line.css span::after{
-    content: "65%";
-}
-.progress-line.javascript span::after{
     content: "80%";
 }
+.progress-line.javascript span::after{
+    content: "85%";
+}
 .progress-line.python span::after{
-    content: "70%";
+    content: "90%";
 }
 .progress-line.react span::after{
-    content: "70%";
+    content: "85%";
 }
 .progress-line span::before{
     content: "";
